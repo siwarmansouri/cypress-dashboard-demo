@@ -16,8 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test:cypress": "cypress open",
-    "test:cypress-run": "cypress run --record --key c3eb12cb-8907-4304-b22f-07032f47b1cf",
     "test:cypress-run-chrome": "cypress run --browser chrome --tag cross-browser,chrome --record --key c3eb12cb-8907-4304-b22f-07032f47b1cf",
+    "test:cypress-run-electron": "cypress run --browser electron --tag cross-browser,electron --record --key c3eb12cb-8907-4304-b22f-07032f47b1cf",
     "test:cypress-run-firefox": "cypress run --browser firefox --tag cross-browser,firefox --record --key c3eb12cb-8907-4304-b22f-07032f47b1cf"
 
   },
