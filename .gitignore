@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# screenshots
+/cypress/screenshots/MustFail.spec.js/*.png
+
 # testing
 /coverage
 
