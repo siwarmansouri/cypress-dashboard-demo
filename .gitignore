@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+# parallel command files
+cypressThread*.command
+
+# screenshots
+/cypress/screenshots/MustFail.spec.js/*.png
+
 # testing
 /coverage
 
