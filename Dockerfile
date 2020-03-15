@@ -4,6 +4,8 @@ WORKDIR /cypress
 COPY ./cypress cypress
 COPY cypress.json .
 COPY package.json .
+COPY cypressThread1.command .
+COPY cypressThread2.command .
 
 RUN cypress verify 
 
