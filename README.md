@@ -15,9 +15,9 @@ You will also see any lint errors in the console.
 ## Cypress Cross Browser testing
 Cypress has the capability to run tests across multiple browsers.
 Excluding Electron, any browser you want to run Cypress tests in needs to be installed on your local system or CI environment. 
-### `npm test:cypress-run-chrome`
-### `npm test:cypress-run-electron`
-### `npm test:cypress-run-firefox`
+    `npm test:cypress-run-chrome`
+    `npm test:cypress-run-electron`
+    `npm test:cypress-run-firefox`
 
 ## Parallel testing
 * Split the above commands in multiple command files to run spec files against different browsers in parallel threads: 
