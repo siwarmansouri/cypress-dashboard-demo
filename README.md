@@ -24,12 +24,8 @@ Excluding Electron, any browser you want to run Cypress tests in needs to be ins
 * Split the above commands in multiple command files to run spec files against different browsers in parallel threads: 
 
     #### Add cypressThreadX.command file for each browser:
-
-
-    `Edit this and put your project path` 
     
     `cd /path/to/cypress-dashboard-demo`   
-    
     `npm run test:cypress-run-chrome`
 
 * Run the parallel streams
